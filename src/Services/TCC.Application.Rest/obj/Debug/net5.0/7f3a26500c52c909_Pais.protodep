@@ -1,0 +1,2 @@
+obj\Debug\net5.0/Pais.cs \
+obj\Debug\net5.0/PaisGrpc.cs: ../TCC.Application.GRPC/Protos/Pais.proto

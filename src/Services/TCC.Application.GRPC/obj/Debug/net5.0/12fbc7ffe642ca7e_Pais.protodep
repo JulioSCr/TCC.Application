@@ -1,0 +1,2 @@
+obj\Debug\net5.0\Protos/Pais.cs \
+obj\Debug\net5.0\Protos/PaisGrpc.cs: Protos/Pais.proto

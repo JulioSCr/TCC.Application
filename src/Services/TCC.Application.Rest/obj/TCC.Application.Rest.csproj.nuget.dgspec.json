@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Fatec\\Último semestre\\TCC\\Prática\\TCC.Application\\src\\Services\\TCC.Application.Rest\\TCC.Application.Rest.csproj": {}
+  },
+  "projects": {
+    "C:\\Fatec\\Último semestre\\TCC\\Prática\\TCC.Application\\src\\Services\\TCC.Application.Rest\\TCC.Application.Rest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fatec\\Último semestre\\TCC\\Prática\\TCC.Application\\src\\Services\\TCC.Application.Rest\\TCC.Application.Rest.csproj",
+        "projectName": "TCC.Application.Rest",
+        "projectPath": "C:\\Fatec\\Último semestre\\TCC\\Prática\\TCC.Application\\src\\Services\\TCC.Application.Rest\\TCC.Application.Rest.csproj",
+        "packagesPath": "C:\\Users\\julio.cruz\\.nuget\\packages\\",
+        "outputPath": "C:\\Fatec\\Último semestre\\TCC\\Prática\\TCC.Application\\src\\Services\\TCC.Application.Rest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\julio.cruz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

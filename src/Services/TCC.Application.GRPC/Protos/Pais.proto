@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "TCC.Application.GRPC.Protos";
+
+service PaisProtoService {
+    rpc GetPais(GetPaisNomeRequest) returns (PaisModel);
+}
+
+message GetPaisNomeRequest {
+    string nome = 1;
+}
+
+message PaisModel {
+    string Gentilico = 1;
+    string NomePais = 2;
+    string NomePaisInternacional = 3;
+    string Sigla = 4;
+}

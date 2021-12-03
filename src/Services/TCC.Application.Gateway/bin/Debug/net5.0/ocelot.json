@@ -1,0 +1,32 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/paises",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 39959
+        }
+      ],
+      "UpstreamPathTemplate": "/paises",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "APIGatewayPais"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "APIGatewayPais",
+      "Config": [
+        {
+          "Name": "API Gateway Pais",
+          "Version": "v1",
+          "Url": "http://localhost:39959/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:39406"
+  }
+}
